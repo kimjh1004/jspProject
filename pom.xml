@@ -108,10 +108,14 @@
         </dependency>  
 		<!-- 구글 리캡챠 종료 -->
 		
-		<!-- SimpleCaptcha 보안문자 시작  
- 		현재는 지원하지 않음으로 직접 추가!!
-		SimpleCaptcha 보안문자 끝 -->		
-		
+		<!-- SimpleCaptcha -->		
+		<dependency>
+		    <groupId>custom</groupId>
+		    <artifactId>sleepyeyes-custom</artifactId>
+		    <version>1.0</version>
+		    <scope>system</scope>
+		    <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/simplecaptcha-1.2.1.jar</systemPath>
+		</dependency>
 	</dependencies>
  
 	<build>
