@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<style>
+	.indexA{
+  display:block;
+  position: absolute;
+  top:0; left:0; bottom:0; right:0;
+  width:200px; height:50px;
+  border:1px solid #ccc;
+  margin:auto; text-align: center;
+  line-height: 50px;
+	}
+</style>
+
+<title> index </title>
+</head>
+<body>
+<!-- layout -->
+<a class="indexA" href=javascript:openNewWindow('./page/sms-certi.html')>C-PORT WEB</a>
+
+<!--script -->
+<script>
+		var windowW = window.innerWidth;
+
+		function openNewWindow(window) {
+			open (window,"NewWindow","left=300, top=100, toolbar=no, location=no,\
+						directories=no, status=no, menubar=no, scrollbars=no\
+						resizable=yes, width=400, height=748");}
+</script>
+</body>
+</html>
